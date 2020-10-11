@@ -39,6 +39,7 @@ function App() {
       .catch(err => {
         console.log("Error"+err)
       })
+      alert("Data has been saved")
     }
 
     const InputChange = (e) =>{
@@ -137,7 +138,7 @@ function App() {
         <Footer Require={InputChange} Reward={InputChange} Numbers={InputChange}/>,
         <Menu.Item>
         <div class="ui labeled input">
-            <Button primary style= {{float:'right',marginLeft:'1000px'}} size="huge" onClick={handleSubmit} id='SubmitButton'>Save</Button>
+            <Button primary style= {{float:'right',marginLeft:'780px'}} size="huge" onClick={handleSubmit} id='SubmitButton'>Save</Button>
         </div>
         </Menu.Item>
         </div>

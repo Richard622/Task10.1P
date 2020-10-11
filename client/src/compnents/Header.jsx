@@ -20,11 +20,11 @@ const Header = (props)=> (
           </div>
         </div>
        
-        <div href="../public/index.html" class="item right">
+        <div  class="item right">
         <Checkbox id='Choice' name='selectTask'   value='Yes' onChange={props.Require} value="Choice Task" />Choice Task</div>
-        <div href="../public/index.html" class="item ">
+        <div  class="item ">
         <Checkbox id='Decision' name='selectTask'   value='Yes' onChange={props.Require} value="Decision-Making Task" />Decision-Making Task</div>
-        <div href="../public/index.html" class="item ">
+        <div  class="item ">
         <Checkbox id='Sentence' name='selectTask'   value='Yes' onChange={props.Require} value="Sentence-Level Task" />Sentence-Level Task</div>
         
       </div>
